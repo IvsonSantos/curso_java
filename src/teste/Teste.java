@@ -1,3 +1,5 @@
+package teste;
+
 /**
  * Esta é uma anotacao de classe
  */

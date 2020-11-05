@@ -1,7 +1,9 @@
+package teste;
+
 public class TestaOperadores {
 
     public static void main(String[] args) {
-        incremento();
+        decremento();
     }
 
     public static void operadores() {
@@ -102,6 +104,37 @@ public class TestaOperadores {
         int b = 7;
         System.out.println(b++);  // 7
         System.out.println(b);    // 8
+
+        // pre incremento
+        int c = 12;
+        ++c;       // igual a c = c + 1
+        System.out.println("C:" + c);
+
+        int d = 17;
+        System.out.println(++d);     // 18
+        System.out.println(d);       // 18
+    }
+
+    public static void decremento() {
+
+        int a = 5;
+        a--;   // igual a (a = a - 1)
+        System.out.println("A: " + a);
+
+        int b = 7;
+        System.out.println(b--);  // 7
+        System.out.println(b);    // 6
+
+
+        // pre decremento
+        int c = 12;
+        --c;       // igual a c = c - 1
+        System.out.println("C: " + c);
+
+
+        int d = 17;
+        System.out.println(--d);     // 16
+        System.out.println(d);       // 16
     }
 
 }
