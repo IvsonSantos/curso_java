@@ -15,6 +15,10 @@ public class StringReplace {
         String d = c.replace('a', 'u');
         System.out.println("D: " + d);
 
+
+        String g = "oi, tudo bem";
+        String[] ee = g.split(",");
+        System.out.println(ee);
     }
 
 }
