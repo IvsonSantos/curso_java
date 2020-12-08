@@ -13,18 +13,41 @@ public class TestaIf {
 
         int notaAlunoA = 8;
         int notaAlunoB = 5;
+        int notaAlunoC = 10;
 
-        System.out.println("Condicao Aluno A: " + (notaAlunoA >= 7));
-        System.out.println("Condicao Aluno B: " + (notaAlunoB >= 7));
-
+        /*
         // primeira condicao, aluno aprovado
         if (notaAlunoA >= 7) {  // true
             System.out.println("O aluno A esta aprovado com a nota: " + notaAlunoA);
         }
+        // segunda condicao, aluno reprovado
+        if (notaAlunoA < 7) {
+            System.out.println("O aluno A esta reprovado com a nota: " + notaAlunoA);
+        }
+
 
         if (notaAlunoB >= 7) {  // false
             System.out.println("O aluno B esta aprovado com a nota: " + notaAlunoB);
         }
+        if (notaAlunoB < 7) { // true
+            System.out.println("O aluno B esta reprovado com a nota: " + notaAlunoB);
+        }
+                    */
+
+        if (notaAlunoC >= 7) {
+
+            if (notaAlunoC >= 7 && notaAlunoC < 10){
+                System.out.println("O aluno C esta aprovado com a nota: " + notaAlunoC);
+            }
+
+            if (notaAlunoC == 10) {
+                System.out.println("Parabens, nota maxima");
+            }
+        }
+        if (notaAlunoC < 7) {
+            System.out.println("O aluno C esta reprovado com a nota: " + notaAlunoC);
+        }
+
 
     }
 
